@@ -7,7 +7,7 @@ package Devil::Tcp;
 
 use Essence::Strict;
 
-use base 'Devil';
+use parent 'Devil';
 
 use AnyEvent::Socket;
 

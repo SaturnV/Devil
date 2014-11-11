@@ -4,7 +4,7 @@ package Devil::Timer;
 
 use Essence::Strict;
 
-use base 'Devil';
+use parent 'Devil';
 
 use AnyEvent;
 

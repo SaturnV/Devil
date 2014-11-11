@@ -4,7 +4,7 @@ package Devil::_Queue;
 
 use Essence::Strict;
 
-use base 'Devil::_Thing';
+use parent 'Devil::_Thing';
 
 sub Get { return shift(@{$_[0]}) }
 sub Put { push(@{$_[0]}, $_[1]) ; return $_[0] }

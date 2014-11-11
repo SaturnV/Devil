@@ -7,7 +7,7 @@ package Devil::_Condition;
 
 use Essence::Strict;
 
-use base 'Devil::_Thing';
+use parent 'Devil::_Thing';
 
 sub Get { return $_[0]->[0] }
 sub Put { $_[0]->[0] = $_[1] ; return $_[0] }

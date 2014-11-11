@@ -3,7 +3,7 @@ package Devil::_SingleUse;
 
 use Essence::Strict;
 
-use base 'Devil::_Condition';
+use parent 'Devil::_Condition';
 
 sub Expired { return 1 }
 
